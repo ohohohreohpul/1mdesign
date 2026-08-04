@@ -208,6 +208,9 @@ body::before{
 .stack-item p{color:var(--ink-2);font-size:.96rem;max-width:42ch}
 .stack-item .worth{position:absolute;top:1.7rem;right:1.7rem;font-family:var(--f-disp);font-size:1.5rem;color:var(--ink)}
 @media(max-width:700px){.stack{grid-template-columns:1fr}}
+.stack-anchor{margin-top:1.6rem;color:var(--ink-2);font-size:1.02rem}
+.stack-anchor s{color:var(--muted)}
+.stack-anchor b{color:var(--ink);font-family:var(--f-ui);font-weight:700}
 
 /* TESTIMONIALS */
 .testi-grid{columns:3;column-gap:1.1rem;margin-top:2.6rem}
@@ -305,6 +308,7 @@ body::before{
 .toc li span{font-family:var(--f-disp);font-size:1.7rem;color:var(--red);min-width:2ch}
 .toc li b{font-size:1.18rem;display:block}
 .toc li em{color:var(--muted);font-size:.95rem;display:block;margin-top:.25rem}
+.toc li .toc-chapters{color:var(--ink-2);font-size:.85rem;display:block;margin-top:.5rem;font-family:var(--f-ui)}
 
 .ctable{margin-top:2.6rem;border-radius:var(--r);padding:.5rem;overflow-x:auto}
 .ctable table{width:100%;border-collapse:collapse;min-width:640px}
