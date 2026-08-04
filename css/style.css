@@ -100,7 +100,9 @@ body::before{
   padding:.7rem clamp(1rem,4vw,2rem);background:transparent;border:0;box-shadow:none;transition:.4s var(--ease)}
 .nav.scrolled{background:var(--glass);border-bottom:1px solid var(--glass-brd);box-shadow:var(--shadow-sm)}
 .brand{display:flex;align-items:center;gap:.55ch;font-family:var(--f-disp);font-size:1.35rem;letter-spacing:.5px}
-.brand-mark{background:var(--red);color:#fff;padding:.05em .4ch;border-radius:6px}
+.brand-logo{width:26px;height:26px;flex:0 0 auto;display:block;color:var(--ink)}
+.nav:not(.scrolled) .brand-logo{color:#fff}
+.foot .brand-logo{color:#fff}
 .nav-links{margin-left:auto;display:flex;gap:1.6rem;font-size:.92rem;font-weight:500;color:var(--ink-2)}
 .nav-links a{position:relative}
 .nav-links a::after{content:"";position:absolute;left:0;bottom:-4px;height:2px;width:0;background:var(--red);transition:width .3s var(--ease)}
